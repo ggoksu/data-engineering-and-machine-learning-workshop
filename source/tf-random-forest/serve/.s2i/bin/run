@@ -18,7 +18,7 @@ else
 
     cd /opt/app-root/src
     echo "starting microservice"
-    exec seldon-core-microservice $MODEL_NAME $API_TYPE --service-type $SERVICE_TYPE --persistence $PERSISTENCE
+    exec seldon-core-microservice $MODEL_NAME --service-type $SERVICE_TYPE --persistence $PERSISTENCE
 
 fi
 
